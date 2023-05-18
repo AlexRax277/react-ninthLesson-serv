@@ -1,0 +1,27 @@
+{
+  "name": "2task-serv",
+  "version": "1.0.0",
+  "description": "serv for 2 task (9th lesson)",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start server.js --watch",
+    "stop": "pm2 stop server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRax277/react-ninthLesson-serv.git"
+  },
+  "author": "AlexRax277",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexRax277/react-ninthLesson-serv/issues"
+  },
+  "homepage": "https://github.com/AlexRax277/react-ninthLesson-serv#readme",
+  "type": "module",
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pm2": "^5.3.0"
+  }
+}
